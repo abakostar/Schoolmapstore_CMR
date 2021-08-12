@@ -78,13 +78,25 @@
                 "isNew": true,
                 "autoload": false
             },
-            "selectedService": "gs_stable_csw",
+            "selectedService": "gs_minesec_wms",
             "services": {
+              "gs_minesec_wms": {
+                "url": "http://localhost:8080/geoserver/sig_minesec/wms",
+                "type": "wms",
+                "title": "MINESEC GeoServer WMS",
+                "autoload": true
+              },
+              "gs_minedub_wms": {
+                "url": "http://localhost:8080/geoserver/sig_minedub/wms",
+                "type": "wms",
+                "title": "MINEDUB GeoServer WMS",
+                "autoload": true
+              },
               "gs_stable_csw": {
                 "url": "https://gs-stable.geo-solutions.it/geoserver/csw",
                 "type": "csw",
                 "title": "GeoSolutions GeoServer CSW",
-                "autoload": true
+                "autoload": false
               },
               "gs_stable_wms": {
                 "url": "https://gs-stable.geo-solutions.it/geoserver/wms",
@@ -634,7 +646,7 @@
               "fluid": true
             }
           }
-          , "MailingLists", "Footer", {
+          , "Footer", {
           "name": "Cookie",
           "cfg": {
             "externalCookieUrl" : "",
@@ -671,8 +683,18 @@
           {
           "name": "DashboardEditor",
           "cfg": {
-            "selectedService": "GeoSolutions GeoServer CSW",
+            "selectedService": "Geoserver MINESEC WMS",
             "services": {
+              "Geoserver MINESEC WMS": {
+                "url": "http://localhost:8080/geoserver/sig_minesec/wms",
+                "type": "wms",
+                "title": "Geoserver MINESEC WMS"
+              },
+              "Geoserver MINEDUB WMS": {
+                "url": "http://localhost:8080/geoserver/sig_minedub/wms",
+                "type": "wms",
+                "title": "Geoserver MINEDUB WMS"
+              },
               "GeoSolutions GeoServer CSW": {
                 "url": "https://gs-stable.geo-solutions.it/geoserver/csw",
                 "type": "csw",
