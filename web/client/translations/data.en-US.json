@@ -7,18 +7,18 @@
         "about_title": "About",
         "aboutTooltip": "About",
         "aboutLbl": "About",
-        "about_p0-0": "MapStore is a framework to build web mapping applications using standard mapping libraries, such as",
+        "about_p0-0": "SchoolMapStore is a framework to build web mapping applications using standard mapping libraries, such as",
         "about_p0-1": "and",
-        "about_p1": "MapStore has several example applications:",
+        "about_p1": "SchoolMapStore has several example applications:",
         "about_ul0_li0": "MapViewer is a simple viewer of preconfigured maps (optionally stored in a database using GeoStore)",
         "about_ul0_li1": "MapPublisher has been developed to create, save and share in a simple and intuitive way maps and mashups created selecting contents coming from well-known sources like Google Maps and OpenStreetMap or from services provided by organizations using open protocols like OGC WMS, WFS, WMTS or TMS and so on. For more information check the",
         "about_h20": "License",
-        "about_p3": "MapStore is Free and Open Source software, it is based on OpenLayers, Leaflet and ReactJS, and is licensed under the Simplified BSD License.",
+        "about_p3": "SchoolMapStore is Free and Open Source software, it is based on OpenLayers, Leaflet and ReactJS, and is licensed under the Simplified BSD License.",
         "about_p5-0": "For more information check",
         "about_a0": "this",
         "about_p5-1": "page.",
         "about_h21": "Credits",
-        "about_p6": "MapStore is made by:",
+        "about_p6": "SchoolMapStore is made by:",
         "enable": "Enable",
         "layers": "Layers",
         "warning": "Warning",
@@ -39,7 +39,7 @@
         },
         "errorPage": {
             "title":"Ops, Something has gone wrong.",
-            "subtitle":"Please click the icon below to reload MapStore",
+            "subtitle":"Please click the icon below to reload SchoolMapStore",
             "description":"If you want to report this error you can send an email our mailing list",
             "descriptionAdmin":"Please contact the administrator"
         },
@@ -284,12 +284,12 @@
         },
         "home":{
             "open": "Open",
-            "shortDescription": "Modern webmapping with OpenLayers, Leaflet and ReactJS.<br/> <small>Visit the <a href=\"https://mapstore.readthedocs.io/en/latest/\">documentation</a> page</small>",
-            "forkMeOnGitHub": "Fork me on GitHub",
-            "description": "MapStore has been developed to create, save and share in a simple and intuitive way maps and mashups created selecting contents coming from well-known sources like OpenStreetMap, Google Maps or from services provided by organizations using open protocols like OGC WMS, WFS, WMTS or TMS and so on...<br/>Visit the <a href=\"https://mapstore.readthedocs.io/en/latest/\">home page</a> for more details.",
+            "shortDescription": "Modern webmapping for the <b><font color=\"0000ff\"> Education and Training Sector in Cameroon </font></b>.<br/> <small>Visit the <a href=\"https://mapstore.readthedocs.io/en/latest/\">documentation</a> page</small>",
+            "forkMeOnGitHub": "WebSIG Education Cameroon",
+            "description": "SchoolMapStore has been developed to create, save and share in a simple and intuitive way school maps and mashups created selecting contents coming from well-known sources like OpenStreetMap, Google Maps or from services provided by organizations using open protocols like OGC WMS, WFS, WMTS or TMS and so on...<br/>Visit the <a href=\"https://mapstore.readthedocs.io/en/latest/\">home page</a> for more details.",
             "Applications": "Applications",
             "Examples": "Examples",
-            "LinkedinGroup": "Mapstore Linkedin Group",
+            "LinkedinGroup": "SchoolMapStore Linkedin Group",
             "scrollTop": "Scroll to the top of the page",
             "footerDescription": "<strong>GeoSolutions</strong> <a href=\"mailto:info@geosolutionsgroup.com\">info@geosolutionsgroup.com</a> <strong>US</strong> +1 (301) 337-7055 -  <strong>Italy</strong>: +39 0584 962313",
             "ml": {
@@ -1268,7 +1268,7 @@
             "addBboxParam": "Add bounding box param to sharing link",
             "wrongBboxParamTitle": "Invalid bounding box param",
             "wrongBboxParamMessage": "Bounding box params must be in EPSG:4326 and wrote as bbox=minx,miny,maxx,maxy",
-            "showHomeButton": "Link to MapStore home",
+            "showHomeButton": "Link to SchoolMapStore home",
             "showSectionId": "Include scroll position",
             "showConnections": "Show connections",
             "sizeOptions": {
@@ -1317,7 +1317,7 @@
             "dropZone": {
                 "heading": "<p><h4>Drop your map context or vector files here</h4><small>or</small></p>",
                 "selectFiles": "Select files...",
-                "infoSupported": "<p><small>Supported map context files: MapStore legacy format, WMC<br />Supported vector layer files: shapefiles (must be contained in zip archives), KML/KMZ, GeoJSON, Annotations or GPX</small></p>",
+                "infoSupported": "<p><small>Supported map context files: SchoolMapStore legacy format, WMC<br />Supported vector layer files: shapefiles (must be contained in zip archives), KML/KMZ, GeoJSON, Annotations or GPX</small></p>",
                 "note": "<p><small><i><strong>note</strong>: current map will be overridden in case of map context files</i></small></p>"
             },
             "errors": {
@@ -1336,8 +1336,8 @@
             },
             "formats": {
                 "mapstore2": {
-                    "label": "MapStore",
-                    "description": "<p><small>MapStore map configuration format</small></p>"
+                    "label": "SchoolMapStore",
+                    "description": "<p><small>SchoolMapStore map configuration format</small></p>"
                 },
                 "wmc": {
                     "label": "WMC",
@@ -2224,7 +2224,7 @@
             "styleEmpty": "This style has no rules",
             "incompleteClassification": "The classification is incomplete because the entries are not available. Ensure all properties are correctly provided",
             "imageSrcEmpty": "Missing image source url in the icon style",
-            "imageSrcLoadError": "The provided image source could not be loaded. Try with a different url or ensure the source is reachable by MapStore",
+            "imageSrcLoadError": "The provided image source could not be loaded. Try with a different url or ensure the source is reachable by SchoolMapStore",
             "imageSrcInvalidBase64": "This is not a valid base64 image. Some style renderer does not support this type of source, you could use an external url source instead",
             "imageSrcNotSupportedBase64Image": "Some style renderer does not support base64 images even if the current source is valid",
             "imageFormatEmpty": "The image format cannot be identified. Please select the image format from the available ones in the 'Format' dropdown",
@@ -2387,7 +2387,7 @@
         },
         "geostory": {
             "storyResources": "Story Resources",
-            "geostoreMap": "MapStore Maps",
+            "geostoreMap": "SchoolMapStore Maps",
             "loadingSpinner": "Loading Story",
             "addTitleSection": "Add Title Section",
             "addBannerSection": "Add Banner Section",
@@ -2700,7 +2700,7 @@
             "title": "Annotations"
           },
           "AutoMapUpdate": {
-            "description": "Allows the user to update the map (old mapstore version)",
+            "description": "Allows the user to update the map (old SchoolMapStore version)",
             "title": "Auto Map Update"
           },
           "BackgroundSelector": {
@@ -2836,7 +2836,7 @@
             "description": "Enables an automatically saved user session for every context"
           },
           "Version": {
-            "description": "Shows the version of MapStore in map settings tool",
+            "description": "Shows the version of SchoolMapStore in map settings tool",
             "descriptionGeorchestra": "Shows the version of GeOrchestra in map settings tool",
             "title": "Version"
           },
@@ -3086,7 +3086,7 @@
             "checkbox": "don't show this message again",
             "error": "Error: target not found",
             "intro": {
-                "title": "Welcome on MapStore",
+                "title": "Welcome on SchoolMapStore",
                 "text": "framework to build web mapping applications using standard mapping libraries, such as OpenLayers and Leaflet."
             },
             "drawerMenu": {
@@ -3131,11 +3131,11 @@
             },
             "mapsGrid": {
                 "title": "Maps",
-                "text": "Here some examples of MapStore. Click on an image to try the demo."
+                "text": "Here some examples of SchoolMapStore. Click on an image to try the demo."
             },
             "examples": {
                 "title": "Custom Application",
-                "text": "You can use components and plugins of MapStore to build custom applications"
+                "text": "You can use components and plugins of SchoolMapStore to build custom applications"
             },
             "introCesium": {
                 "title": "3D map instructions",
@@ -3174,7 +3174,7 @@
             },
             "dashboardContainer": {
                 "title": "Dashboard",
-                "text": "<p>A Dashboard in MapStore provides a set of information suitably collected to show aggregated data in one shot view. Geospatial data displayed in a map can be placed side by side to related attribute tables, charts and other, with the aim to connect different kind of information, show statistical details and textual descriptions relating to a specific context.</p><p> All users can visualize and interact with published dashboards but only users allowed to edit can add, arrange, resize or delete all the widgets inside a dashboard</p>"
+                "text": "<p>A Dashboard in SchoolMapStore provides a set of information suitably collected to show aggregated data in one shot view. Geospatial data displayed in a map can be placed side by side to related attribute tables, charts and other, with the aim to connect different kind of information, show statistical details and textual descriptions relating to a specific context.</p><p> All users can visualize and interact with published dashboards but only users allowed to edit can add, arrange, resize or delete all the widgets inside a dashboard</p>"
             },
             "dashboardAddWidget": {
                 "title": "Add Widget",
@@ -3208,7 +3208,7 @@
                 "generalSettings": {
                     "intro": {
                         "title": "Context Creation Tutorial",
-                        "text": "This is a step-by-step wizard to create and edit MapStore contexts"
+                        "text": "This is a step-by-step wizard to create and edit SchoolMapStore contexts"
                     },
                     "stepsOverview": {
                         "title": "Context Creator Steps",
@@ -3240,7 +3240,7 @@
                 "configureMap": {
                     "intro": {
                         "title": "Configure Map",
-                        "text": "<p>In this step, using MapStore map viewer tools you can configure the default map that will be opened upon accessing the context.</p>"
+                        "text": "<p>In this step, using SchoolMapStore map viewer tools you can configure the default map that will be opened upon accessing the context.</p>"
                     },
                     "reloadMap": {
                         "title": "Reload Map Button",
@@ -3254,7 +3254,7 @@
                     },
                     "availablePlugins": {
                         "title": "Available Plugins",
-                        "text": "<p>This list contains MapStore plugins that can be added to a context. To select a plugin simply click on it's card. Also, if you hold down your CTRL key, you can select multiple plugins.</p>"
+                        "text": "<p>This list contains SchoolMapStore plugins that can be added to a context. To select a plugin simply click on it's card. Also, if you hold down your CTRL key, you can select multiple plugins.</p>"
                     },
                     "pluginManipulation": {
                         "title": "Moving Plugins",
@@ -3262,7 +3262,7 @@
                     },
                     "enabledPlugins": {
                         "title": "Enabled Plugins",
-                        "text": "<p>This list contains MapStore plugins that are in the context. Each plugin here can be further configured using tool buttons.</p>"
+                        "text": "<p>This list contains SchoolMapStore plugins that are in the context. Each plugin here can be further configured using tool buttons.</p>"
                     },
                     "userPlugin": {
                         "title": "Plugin Tools: User Plugins",
@@ -3290,7 +3290,7 @@
                     },
                     "extensions": {
                         "title": "Extensions",
-                        "text": "<p>MapStore also supports uploading custom extenion bundles. You can do so by clicking this button.</p>"
+                        "text": "<p>SchoolMapStore also supports uploading custom extenion bundles. You can do so by clicking this button.</p>"
                     },
                     "extensionsDelete": {
                         "title": "Extensions",

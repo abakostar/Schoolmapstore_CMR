@@ -7,18 +7,18 @@
         "about_title": "A propos...",
         "aboutTooltip": "A propos...",
         "aboutLbl": "A propos",
-        "about_p0-0": "MapStore est un cadriciel permettant de développer des applications cartographiques web à l'aide des librairies cartographiques standards telles que",
+        "about_p0-0": "SchoolMapStore est un cadriciel permettant de développer des applications cartographiques web à l'aide des librairies cartographiques standards telles que",
         "about_p0-1": "et",
-        "about_p1": "MapStore a plusieurs exemples d'applications:",
+        "about_p1": "SchoolMapStore a plusieurs exemples d'applications:",
         "about_ul0_li0": "MapViewer est un visualiseur simple de cartes préconfigurées (contenues optionnellement dans une base de données GeoStore)",
         "about_ul0_li1": "MapPublisher a été développé pour créer, sauver et partager de façon simple et intuitive cartes et assemblages créés à partir des contenus de serveurs tel que OpenStreetMap, Google Maps, MapQuest ou tout autre serveur spécifique fourni par votre organisation ou une organisation tierce. Pour plus d'informations: ",
         "about_h20": "Licence",
-        "about_p3": "MapStore est un logiciel libre à code source ouverte, basé sur OpenLayers, Leaflet et ReactJS, et est disponible sous la licence \"Simplified BSD License\".",
+        "about_p3": "SchoolMapStore est un logiciel libre à code source ouverte, basé sur OpenLayers, Leaflet et ReactJS, et est disponible sous la licence \"Simplified BSD License\".",
         "about_p5-0": "Pour plus d'informations, consultez",
         "about_a0": "ceci",
         "about_p5-1": "page.",
         "about_h21": "Crédits",
-        "about_p6": "MapStore est développé par :",
+        "about_p6": "SchoolMapStore est développé par :",
         "enable": "Activer",
         "layers": "Couches",
         "warning": "Attention",
@@ -39,7 +39,7 @@
         },
         "errorPage": {
             "title":"Oups, quelque chose a mal tourné.",
-            "subtitle":"Veuillez cliquer sur l'icône ci-dessous pour recharger MapStore",
+            "subtitle":"Veuillez cliquer sur l'icône ci-dessous pour recharger SchoolMapStore",
             "description":"Si vous souhaitez signaler cette erreur, vous pouvez envoyer un e-mail à notre liste de diffusion",
             "descriptionAdmin":"Veuillez contacter l'administrateur"
         },
@@ -284,9 +284,9 @@
         },
         "home": {
             "open": "Ouvrir",
-            "shortDescription": "Application cartographique en ligne moderne Modern propulsée par OpenLayers, Leaflet et ReactJS.<br/> <small>Consultez la page de <a href=\"https://mapstore.readthedocs.io/en/latest/\"> documentation </a></ small>",
-            "forkMeOnGitHub": "Fork me on GitHub",
-            "description": "MapStore a été développé pour créer, sauvegarder et partager de façon simple et intuitive des cartes simple ou élaboréess créés à partir de services comme OpenStreetMap, Google Maps ou tout autres services fournis par des organisations utilisant des protocoles ouverts comme OGC WMS, WFS, WMTS ou TMS et bien d'autres...<br/>Visitez notre <a href=\"https://mapstore.readthedocs.io/en/latest/\">page d'accueil</a> pour plus de détails.",
+            "shortDescription": "Application cartographique en ligne pour le <b><font color=\"0000ff\">Secteur de l'Education et de la Formation au Cameroun </font></b><br/> <small>Consultez la page de <a href=\"https://mapstore.readthedocs.io/en/latest/\"> documentation </a></ small>",
+            "forkMeOnGitHub": "WebSIG Education Cameroun",
+            "description": "SchoolMapStore a été développé pour créer, sauvegarder et partager de façon simple et intuitive des cartes thématiques du secteur de l'éducation simple ou élaboréess créés à partir de services comme OpenStreetMap, Google Maps ou tout autres services fournis par des organisations utilisant des protocoles ouverts comme OGC WMS, WFS, WMTS ou TMS et bien d'autres...<br/>Visitez notre <a href=\"https://mapstore.readthedocs.io/en/latest/\">page d'accueil</a> pour plus de détails.",
             "Applications": "Applications",
             "Examples": "Exemples",
             "LinkedinGroup": "Groupe Linkedin Mapstore",
@@ -1259,7 +1259,7 @@
             "wrongCenterAndZoomParamMessage": "Les paramètres Centre et Zoom doivent être center=lon,lat&zoom=value et (+|- 90° lat, +|-180° lon, <=+35 zoom)",
             "wrongMarkerAndZoomParamTitle": "Marqueur et paramètre de zoom non valides",
             "wrongMarkerAndZoomParamMessage": "Les paramètres Marker et Zoom doivent être marker=lon,lat&zoom=value et (+|- 90° lat, +|-180° lon, <=+35 zoom)",
-            "showHomeButton": "Lien vers l'accueil MapStore",
+            "showHomeButton": "Lien vers l'accueil SchoolMapStore",
             "addMarkerAndZoomParam": "Ajouter un repère et zoomer sur le lien de partage",
             "addCenterAndZoomParam": "Ajouter un centre et un zoom au lien de partage",
             "zoom": "Zoom",
@@ -1337,8 +1337,8 @@
             },
             "formats": {
                 "mapstore2": {
-                    "label": "MapStore",
-                    "description": "<p><small>Format standard de MapStore</small></p>"
+                    "label": "SchoolMapStore",
+                    "description": "<p><small>Format standard de SchoolMapStore</small></p>"
                 },
                 "wmc": {
                     "label": "WMC",
@@ -2375,7 +2375,7 @@
         },
         "geostory": {
             "storyResources": "Ressources d'histoire",
-            "geostoreMap": "Cartes de MapStore",
+            "geostoreMap": "Cartes de SchoolMapStore",
             "loadingSpinner": "Chargement de story",
             "addTitleSection": "Ajouter une section de titre",
             "addBannerSection": "Ajouter une section de bannière",
@@ -2824,7 +2824,7 @@
             "description": "Active une session utilisateur enregistrée automatiquement pour chaque contexte"
           },
           "Version": {
-            "description": "Affiche la version de MapStore dans l'outil de paramètres de carte",
+            "description": "Affiche la version de SchoolMapStore dans l'outil de paramètres de carte",
             "descriptionGeorchestra": "Affiche la version de GeOrchestra dans l'outil de paramètres de carte",
             "title": "Version"
           },
@@ -2904,7 +2904,7 @@
                     "body": "Échec de l'analyse JSON de la configuration.\nL'erreur suivante s'est produite:\n\"{error}\""
                 },
                 "uploadLabel": "Faites glisser un ensemble d'extensions ou cliquez pour le télécharger",
-                "uploadTitle": "Installer un plugin MapStore",
+                "uploadTitle": "Installer un plugin SchoolMapStore",
                 "uploadParseError": "Fichier index.json avec une erreur de format",
                 "uploadMissingIndexError": "Fichier index.json manquant dans le zip",
                 "uploadMissingPluginError": "Aucun plugin défini dans index.json",
@@ -2924,8 +2924,8 @@
                     "deactivatePlugin": "Désactiver ce plugin au chargement du contexte",
                     "editConfiguration": "Modifier la configuration du plugin",
                     "pluginDocumentation": "Ouvrir la documentation de configuration du plugin",
-                    "uploadPlugin": "Ajouter une extension à MapStore",
-                    "removePlugin": "Supprimer cette extension de MapStore",
+                    "uploadPlugin": "Ajouter une extension à SchoolMapStore",
+                    "removePlugin": "Supprimer cette extension de SchoolMapStore",
                     "mapTemplatesConfig": "Configurer les cartes modèles"
                 },
                 "tutorialPlugins": {
@@ -3074,7 +3074,7 @@
             "checkbox": "Ne plus me montrer ce message",
             "error": "Erreur: ressource non trouvée",
             "intro": {
-                "title": "Bienvenue dans MapStore",
+                "title": "Bienvenue dans SchoolMapStore",
                 "text": "Environnement de développement d'applications cartographiques en ligne utilisant des librairies cartographiques standards, telles qu'OpenLayers et Leaflet."
             },
             "drawerMenu": {
@@ -3123,7 +3123,7 @@
             },
             "examples": {
                 "title": "Application sur mesure",
-                "text": "Utilisez les composants et outils de MapStore pour construire votre application personnalisée"
+                "text": "Utilisez les composants et outils de SchoolMapStore pour construire votre application personnalisée"
             },
             "introCesium": {
                 "title": "Instructions carte 3D",
@@ -3161,7 +3161,7 @@
             },
             "dashboardContainer": {
                 "title": "Tableau de bord",
-                "text": "<p> Un tableau de bord dans MapStore fournit un ensemble d'informations collectées de manière appropriée pour afficher des données agrégées en une vue. Les données géospatiales affichées dans une carte peuvent être placées côte à côte avec des tableaux d'attributs, des graphiques et autres, dans le but de connecter différents types d'informations, de montrer des détails statistiques et des descriptions textuelles relatives à un contexte spécifique. </p> <p> Tous les utilisateurs peuvent visualiser et interagir avec les tableaux de bord publiés, mais seuls les utilisateurs autorisés à modifier peuvent ajouter, organiser, redimensionner ou supprimer tous les widgets dans un tableau de bord. </p>"
+                "text": "<p> Un tableau de bord dans SchoolMapStore fournit un ensemble d'informations collectées de manière appropriée pour afficher des données agrégées en une vue. Les données géospatiales affichées dans une carte peuvent être placées côte à côte avec des tableaux d'attributs, des graphiques et autres, dans le but de connecter différents types d'informations, de montrer des détails statistiques et des descriptions textuelles relatives à un contexte spécifique. </p> <p> Tous les utilisateurs peuvent visualiser et interagir avec les tableaux de bord publiés, mais seuls les utilisateurs autorisés à modifier peuvent ajouter, organiser, redimensionner ou supprimer tous les widgets dans un tableau de bord. </p>"
             },
             "dashboardAddWidget": {
                 "title": "Ajouter un widget",
@@ -3195,7 +3195,7 @@
                 "generalSettings": {
                     "intro": {
                         "title": "Tutoriel de création de contexte",
-                        "text": "Il s'agit d'un assistant étape par étape pour créer et modifier des contextes MapStore"
+                        "text": "Il s'agit d'un assistant étape par étape pour créer et modifier des contextes SchoolMapStore"
                     },
                     "stepsOverview": {
                         "title": "Étapes du créateur de contexte",
@@ -3227,7 +3227,7 @@
                 "configureMap": {
                     "intro": {
                         "title": "Configurer la carte",
-                        "text": "<p>Dans cette étape, à l'aide des outils de visualisation de carte MapStore, vous pouvez configurer la carte par défaut qui sera ouverte lors de l'accès au contexte.</p>"
+                        "text": "<p>Dans cette étape, à l'aide des outils de visualisation de carte SchoolMapStore, vous pouvez configurer la carte par défaut qui sera ouverte lors de l'accès au contexte.</p>"
                     },
                     "reloadMap": {
                         "title": "Bouton Recharger la carte",
@@ -3277,7 +3277,7 @@
                     },
                     "extensions": {
                         "title": "Extensions",
-                        "text": "<p>MapStore prend également en charge le téléchargement de bundles d'extensions personnalisés. Vous pouvez le faire en cliquant sur ce bouton.</p>"
+                        "text": "<p>SchoolMapStore prend également en charge le téléchargement de bundles d'extensions personnalisés. Vous pouvez le faire en cliquant sur ce bouton.</p>"
                     },
                     "extensionsDelete": {
                         "title": "Extensions",
