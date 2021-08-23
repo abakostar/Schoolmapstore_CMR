@@ -28,13 +28,13 @@ echo "Checking syntax"
 echo `date`
 npm run lint
 
-echo "Run MapStore2 tests"
-echo `date`
-npm test
+# echo "Run MapStore2 tests"
+# echo `date`
+# npm test
 
-echo "Creating Documentation"
-echo `date`
-npm run doc
+# echo "Creating Documentation"
+# echo `date`
+# npm run doc
 
 echo "Building final WAR package"
 echo `date`

@@ -41,7 +41,7 @@
         "method": "bearer"
       },
       {
-        "urlPattern": "http(s)?\\:\\/\\/gs-stable\\.geo-solutions\\.it(\\:443|\\:80)?\\/geoserver/.*",
+        "urlPattern": "\\/geoserver/.*",
         "authkeyParamName": "authkey",
         "method": "authkey"
     }],

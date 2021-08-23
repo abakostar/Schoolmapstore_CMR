@@ -13,7 +13,7 @@
         "about_ul0_li0": "MapViewer est un visualiseur simple de cartes préconfigurées (contenues optionnellement dans une base de données GeoStore)",
         "about_ul0_li1": "MapPublisher a été développé pour créer, sauver et partager de façon simple et intuitive cartes et assemblages créés à partir des contenus de serveurs tel que OpenStreetMap, Google Maps, MapQuest ou tout autre serveur spécifique fourni par votre organisation ou une organisation tierce. Pour plus d'informations: ",
         "about_h20": "Licence",
-        "about_p3": "SchoolMapStore est un logiciel libre à code source ouverte, basé sur OpenLayers, Leaflet et ReactJS, et est disponible sous la licence \"Simplified BSD License\".",
+        "about_p3": "SchoolMapStore est un logiciel propriétaire configurer à l'aide de Mapstore qui est libre à code source ouverte, basé sur OpenLayers, Leaflet et ReactJS, et est disponible sous la licence \"Simplified BSD License\".",
         "about_p5-0": "Pour plus d'informations, consultez",
         "about_a0": "ceci",
         "about_p5-1": "page.",
@@ -284,14 +284,14 @@
         },
         "home": {
             "open": "Ouvrir",
-            "shortDescription": "Application cartographique en ligne pour le <b><font color=\"0000ff\">Secteur de l'Education et de la Formation au Cameroun </font></b><br/> <small>Consultez la page de <a href=\"https://mapstore.readthedocs.io/en/latest/\"> documentation </a></ small>",
-            "forkMeOnGitHub": "WebSIG Education Cameroun",
+            "shortDescription": "Application cartographique en ligne pour le <b><font color=\"0000ff\">Secteur de l'Education et de la Formation au Cameroun </font></b><br/> <small>Cartes thématiques - tableaux de bord - Geostories </ small>",
+            "forkMeOnGitHub": "Consultez la page de <a href=\"https://mapstore.readthedocs.io/en/latest/\"> documentation </a>",
             "description": "SchoolMapStore a été développé pour créer, sauvegarder et partager de façon simple et intuitive des cartes thématiques du secteur de l'éducation simple ou élaboréess créés à partir de services comme OpenStreetMap, Google Maps ou tout autres services fournis par des organisations utilisant des protocoles ouverts comme OGC WMS, WFS, WMTS ou TMS et bien d'autres...<br/>Visitez notre <a href=\"https://mapstore.readthedocs.io/en/latest/\">page d'accueil</a> pour plus de détails.",
             "Applications": "Applications",
             "Examples": "Exemples",
             "LinkedinGroup": "Groupe Linkedin Mapstore",
             "scrollTop": "Retour en haut de la page",
-            "footerDescription": "<strong>GeoSolutions</strong> <a href=\"mailto:info@geosolutionsgroup.com\">info@geosolutionsgroup.com</a> <strong>US</strong> +1 (301) 337-7055 -  <strong>Italy</strong>: +39 0584 962313",
+            "footerDescription": "<strong>Secteur Education (Cameroun)</strong> Sites: <a href=\"www.minedub.gov.cm\">MINEDUB</a> - <a href=\"www.minesec.gov.cm\">MINESEC</a> <strong>Mail:</strong> <a href=\"mailto:abakostar@gmail.com\">Ecrire à l'Administrateur </a><strong> Contacts-Cameroun</strong>: +237 670315523 / +237 694631326",
             "ml": {
                 "title": "Restez au courant des derniers développements via les mailing lists",
                 "subscribe_users": "Souscrire à la liste de diffusion utilisateurs",
@@ -3095,7 +3095,7 @@
             },
             "burgerMenu": {
                 "title": "Menu Options",
-                "text": "Les outils d'ajout de catalogue externe, de sauvegarde de carte, de choix linguistique et de paramétrage de MapStore se trouvent ici"
+                "text": "Les outils d'ajout de catalogue externe, de sauvegarde de carte, de choix linguistique et de paramétrage de SchoolMapStore se trouvent ici"
             },
             "zoomInButton": {
                 "title": "Zoom In",
