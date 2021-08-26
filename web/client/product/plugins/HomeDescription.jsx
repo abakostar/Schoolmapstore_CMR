@@ -42,7 +42,7 @@ class HomeDescription extends React.Component {
                 <Grid>
                     <Row>
                         <Col xs={2}>
-                        <img src={logo1} className="mapstore-header1" />
+                            <img src={logo1} className="mapstore-header1" />
                         </Col>
                         <Col xs={8} className="text-center">
                             <h1>{this.props.name}</h1>
@@ -51,7 +51,7 @@ class HomeDescription extends React.Component {
                             </p>
                         </Col>
                         <Col xs={2} className="text-right">
-                        <img src={logo2} className="mapstore-header2" />
+                            <img src={logo2} className="mapstore-header2" />
                         </Col>
                     </Row>
                 </Grid>
