@@ -66,8 +66,8 @@ class NavMenu extends React.Component {
 
     static defaultProps = {
         src: src,
-        link: 'https://www.geosolutionsgroup.com/',
-        label: 'GeoSolutions',
+        link: '#',
+        label: 'SchoolmapStore',
         style: {
             position: "absolute",
             width: "124px",

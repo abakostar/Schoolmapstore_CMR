@@ -1,5 +1,5 @@
 .manager .mapstore-header {
-    background-image: url('../img/manager-header.jpg');
+    background-image: url("../img/manager-header.jpg");
     height: 200px;
     z-index: -100;
     width: 100%;
@@ -17,7 +17,7 @@
     overflow: visible;
 }
 .manager .MapSearchBar.user-search .input-group {
-    box-shadow: -1px 1px 5px 1px rgba(94,94,94,1);
+    box-shadow: -1px 1px 5px 1px rgba(94, 94, 94, 1);
 }
 .manager .Manager-Container {
     margin: 0;

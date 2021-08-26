@@ -11,6 +11,9 @@ import PropTypes from 'prop-types';
 import { Jumbotron, Grid, Row, Col } from 'react-bootstrap';
 import HTML from '../../components/I18N/HTML';
 
+import logo1 from '../assets/img/left-logo.png';
+import logo2 from '../assets/img/right-logo.png';
+
 /**
  * Description of MapStore rendered in the home page.
  * Renders the HTML in localization files identified by
@@ -28,7 +31,7 @@ class HomeDescription extends React.Component {
     };
 
     static defaultProps = {
-        name: 'MapStore',
+        name: 'SchoolmapStore-CMR',
         className: 'ms-home-description',
         style: {}
     };
@@ -38,11 +41,17 @@ class HomeDescription extends React.Component {
             <Jumbotron className={this.props.className} style={this.props.style}>
                 <Grid>
                     <Row>
-                        <Col xs={12} className="text-center">
+                        <Col xs={2}>
+                        <img src={logo1} className="mapstore-header1" />
+                        </Col>
+                        <Col xs={8} className="text-center">
                             <h1>{this.props.name}</h1>
                             <p>
                                 <HTML msgId="home.shortDescription"/>
                             </p>
+                        </Col>
+                        <Col xs={2} className="text-right">
+                        <img src={logo2} className="mapstore-header2" />
                         </Col>
                     </Row>
                 </Grid>

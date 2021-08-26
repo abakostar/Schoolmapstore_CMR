@@ -38,9 +38,9 @@ class Footer extends React.Component {
             src,
             width: 140,
             height: 'auto',
-            href: 'https://www.geosolutionsgroup.com/',
-            title: 'GeoSolutions',
-            alt: 'GeoSolutions'
+            href: 'https://www.minesec.gov.cm/',
+            title: 'SchoolmapStore',
+            alt: 'SchoolmapStore'
         }
     };
 
